@@ -5,7 +5,7 @@ class box1{
 }
 public class default_constructor {
     public static void main(String []args){
-        
+        box1 box=new box1();
     }
     
 }
