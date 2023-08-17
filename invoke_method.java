@@ -5,6 +5,9 @@ class box{
 int volume(){
     return length*breadth*height;
 }
+int vol(int l,int h,int b){
+    return l*h*b;
+}
 
 }
 public class invoke_method {
@@ -15,6 +18,9 @@ public class invoke_method {
         box.height=9;
 
             System.out.println("volume is: " + box.volume());
+        box n=new box();
+        
+
 
     }
     
