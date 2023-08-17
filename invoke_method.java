@@ -19,7 +19,7 @@ public class invoke_method {
 
             System.out.println("volume is: " + box.volume());
         box n=new box();
-        
+        System.out.println(n.vol(5,2,4));
 
 
     }
