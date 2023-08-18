@@ -2,7 +2,7 @@ class box{
     int a;
     int b;
     int c;
-    box(int d,){
+    box(int d,int e,int f){
 
     }
 }
