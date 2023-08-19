@@ -14,7 +14,8 @@ class woodbox{
 }
 public class constructor {
     public static void main(String []args){
-        
+        woodbox new1=new woodbox(5,2,4);
+        new1.volume();
     }
     
 }
