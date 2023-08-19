@@ -1,14 +1,20 @@
-class box{
-    int a;
-    int b;
-    int c;
-    box(int d,int e,int f){
+class woodbox{
+    int length;
+    int breatdh;
+    int height;
+    woodbox(int a,int b,int c){
 
+        length=a;
+        breatdh=b;
+        height=c;
+    }
+    void volume(){
+        System.out.println("volume is: " + length*breatdh*height);
     }
 }
 public class constructor {
     public static void main(String []args){
-        System.out.println();
+        
     }
     
 }
