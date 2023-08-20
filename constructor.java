@@ -8,6 +8,14 @@ class woodbox{
         breatdh=b;
         height=c;
     }
+    void setdim(int a,int b,int c){
+        length=a;
+        breatdh=b;
+        height=c;
+    
+
+    }
+    
     void volume(){
         System.out.println("volume is: " + length*breatdh*height);
     }
@@ -15,6 +23,7 @@ class woodbox{
 public class constructor {
     public static void main(String []args){
         woodbox new1=new woodbox(5,2,4);
+        new1.setdim(4,2,4);
         new1.volume();
     }
     
