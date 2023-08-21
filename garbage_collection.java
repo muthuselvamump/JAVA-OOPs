@@ -13,6 +13,7 @@ class test{
         System.out.println("testcase2 result is: "+ testcase2 + "%");
         System.out.println("testcase3 result is: "+ testcase3 + "%");
     }
+    finalize
 }
 public class garbage_collection {
     public static void main(String []args){
@@ -21,9 +22,10 @@ public class garbage_collection {
 
         newtest1.testcasedetails();
         newtest2.testcasedetails();
-        newtest1=null;
-        newtest1=newtest2;
+        newtest1=null; //derefernce method 1
+        newtest1=newtest2;   //derefernce method 2
         newtest1.testcasedetails();
+        new test(75, 55, 68); //anonymous object
 
 
     }
