@@ -1,14 +1,20 @@
 package stacks;
-
-public class stack {
+class stack {
     int arr[]=new int[10];
     int tos;
-    int size=0;
+    stack(){
+        tos=-1;
+    }
 
    void push(int a){
-    arr[size]=a;
-    size++;
+       if(tos!=9){
+           arr[++tos]=a;
+        }
+       else{
+           System.out.println("Stack is full");
+        } 
 
     }
+   
     
 }
