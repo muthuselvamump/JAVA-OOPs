@@ -15,6 +15,15 @@ class stack {
         } 
 
     }
-   
+    int pop(){
+        if(tos<0){
+            System.out.println("Stack is empty");
+            return -1;
+        }
+        else{
+            return arr[tos--];    
+        }
+        
+    }
     
 }
