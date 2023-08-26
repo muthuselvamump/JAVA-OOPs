@@ -14,11 +14,17 @@ public class method_overloading {
         return a>b?a:b;
         
     }
+    static char max(char a,char b){
+        
+        return a>b?a:b;
+        
+    }
     public static void main(String []args){
         System.out.println(max(5,6));
         System.out.println(max(-1,-2));
         System.out.println(max(5.5,6.8));
         System.out.println(max(65424524,85542425));
+        System.out.println(max('c','e'));
         
         
     }
