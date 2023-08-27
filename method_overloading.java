@@ -18,6 +18,18 @@ public class method_overloading {
         return a>b?a:b;
         
     }
+    static String max(String a,String b){
+        int d=a.compareTo(b);
+        
+        if(d==1){
+            return a;
+
+        }
+        else{
+            return b;
+        }
+        
+    }
  
     public static void main(String []args){
         System.out.println(max(5,6));
@@ -25,6 +37,7 @@ public class method_overloading {
         System.out.println(max(5.5,6.8));
         System.out.println(max(65424524,85542425));
         System.out.println(max('c','e'));
+        System.out.println(max("Sachin","Ratan"));
         
         
     }
