@@ -9,11 +9,24 @@ class box{
         height=c;
 
     }
+    box(box a){
+        length=a.length;
+        height=a.height;
+        breadth=a.breadth;
+    }
 
 }
 public class copy_constructor {
     public static void main(String []args){
-        box
+        box b1=new box(5,6,7);
+        box b2=new box(b1);
+        System.out.println(b1.length);
+        System.out.println(b1.height);
+        System.out.println(b1.breadth);
+        System.out.println(b2.length);
+        System.out.println(b2.height);
+        System.out.println(b2.breadth);
+
 
     }
     
