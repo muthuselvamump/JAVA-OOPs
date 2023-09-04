@@ -6,7 +6,15 @@ public class queue {
     int index2;
     queue(){
         index=-1;
+        index2=0;
     }
-    en
+    void enqueue(int a){
+        if(index==9){
+            System.out.println("queue is full");
+        }
+        else{
+            arr[++index]=a;   
+        }
+    }
     
 }
