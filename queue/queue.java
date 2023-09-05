@@ -16,5 +16,14 @@ public class queue {
             arr[++index]=a;   
         }
     }
+    int dequeue(){
+        if(index2>index){
+            System.out.println("queue is empty");
+            return -1;
+        }
+        else{
+        return arr[index2++];
+        }
+    }
     
 }
