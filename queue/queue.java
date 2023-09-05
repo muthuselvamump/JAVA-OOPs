@@ -17,12 +17,16 @@ public class queue {
         }
     }
     int dequeue(){
-        if(index2>index){
+        if (index2>index && index !=-1){
+            System.out.println("index out of bound");
+            return -1;
+        }
+        if(index==-1){
             System.out.println("queue is empty");
             return -1;
         }
         else{
-        return arr[index2++];
+            return arr[index2++];
         }
     }
     
