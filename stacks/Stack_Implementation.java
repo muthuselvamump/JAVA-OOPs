@@ -16,6 +16,7 @@ public class Stack_Implementation{
         System.out.println(s.pop());
         s.push(87);
         System.out.println(s.pop());
+        System.out.println(s.pop());
         
 
     }
