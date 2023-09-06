@@ -1,7 +1,6 @@
 public class call_by_value {
-    int a;
     static void changeval(int a){
-        a=20;
+        a++;
 
     }
     public static void main(String [] args){
