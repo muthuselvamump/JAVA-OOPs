@@ -3,8 +3,11 @@ class demo{
     demo(int a){
         data=a;
     }
-    void chaangedata(){
-        data++;
+    demo(){
+    }
+    static demo chaangedata(demo data){
+       
+        data=50;
 
     }
 
@@ -13,7 +16,8 @@ public class call_by_referance {
     public static void main(String []args){
 
         demo obj=new demo(5);
-        obj.chaangedata();
+
+        chaangedata(obj);
         System.out.println(obj.data);
     }
     
