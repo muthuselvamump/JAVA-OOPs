@@ -7,7 +7,7 @@ class demo{
     }
     void chaangedata(int data){
        
-        data=data;
+        this.data=data;
 
     }
 
