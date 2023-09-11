@@ -8,7 +8,7 @@ class Returnobj{
         data3=d3;
     }
     Returnobj doubleval(){
-        Returnobj temp=new Returnobj(data3, data2, data1);
+        Returnobj temp=new Returnobj(2*data1,2*data2,2*data3);
         return temp;
     }
 
@@ -17,6 +17,9 @@ public class returning_object {
     public static void main(String []args){
         Returnobj obj1=new Returnobj(7,5,6);
         Returnobj obj2=obj1.doubleval();
+        System.out.println(obj2.data1);
+        System.out.println(obj2.data2);
+        System.out.println(obj2.data3);
 
     }
     
