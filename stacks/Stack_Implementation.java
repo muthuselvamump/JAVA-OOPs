@@ -6,7 +6,8 @@ public class Stack_Implementation{
         s.push(5);
         s.push(8);
         s.push(7);
-        System.out.println(s.pop());
+        s.push(5);
+        s.push(1);
         System.out.println(s.pop());
         s1.push(15);
         s1.push(82);
@@ -17,7 +18,6 @@ public class Stack_Implementation{
         s.push(87);
         System.out.println(s.pop());
         System.out.println(s.pop());
-        
 
     }
 

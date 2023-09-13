@@ -1,13 +1,13 @@
 package stacks;
 class stack {
-    int arr[]=new int[10];
-    int tos;
-    stack(){
+   private int arr[]=new int[10];
+   private int tos;
+     stack(){
         tos=-1;
     }
 
    void push(int a){
-       if(tos!=9){
+       if(tos!=arr.length-1){
            arr[++tos]=a;
         }
        else{
