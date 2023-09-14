@@ -22,7 +22,7 @@ public class Private {
         Public public1=new Public();
         System.out.println(public1.publicdata);
         Default default1=new Default();
-        System.out.println(default1.dfaultdata);
+        System.out.println(default1.dfaultdata);//we can access default data with in the class and with in the package
     }
     
 }
