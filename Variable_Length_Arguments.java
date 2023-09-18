@@ -26,6 +26,9 @@ public class Variable_Length_Arguments{
         else{
             System.out.println("Minimum Value is : " + min);
         }
+    static void test(String a,char b,int... c){
+
+    }
     }
     public static void main(String []args){
         minvalue(5,2,8,-1,6,6);
