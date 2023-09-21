@@ -1,6 +1,6 @@
 package Package;
 
-import Package.test1.testclass1;
+import test1.testclass1;
 import Package.test2.testclass2;
 
 public class maintestclass {
@@ -8,7 +8,7 @@ public class maintestclass {
         System.out.println("maintestclass");
     }
     public static void main(String []args){
-        testclass1.test();
+       test();
         testclass2.test();
     }
     
