@@ -11,6 +11,7 @@ public class maintestclass {
        testclass1.test();
         testclass2.test();
         maintest2.testing();
+        test();
     }
     
 }
