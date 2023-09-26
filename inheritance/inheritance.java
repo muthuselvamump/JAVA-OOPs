@@ -1,14 +1,12 @@
 package inheritance;
 class Employee{//base class,super class,parent class
-    String name;
-    double salary;
+    private String name;
+    private double salary;
     Employee(String n,int s){
         name=n;
         salary=s;
     }
-    Employee(){
-
-    }
+    
     void setName(String name) {
         this.name= name;
     }
@@ -18,16 +16,21 @@ class Employee{//base class,super class,parent class
     void raisesalary(double s){
         salary +=salary*s/100;
     }
+    double getsalary(){
+        return salary;
+    }
 
         
 }
 class manager extends Employee{ //derived class,sub class,child class
     double bonus;
     manager(String n,int s,double b){
-        name=n;
-        salary=s;
+        super(n,s);
         bonus=b;
 
+    }
+    double getsalary(){
+        return super.get
     }
 }
 
@@ -36,8 +39,9 @@ public class inheritance {
         Employee e1=new Employee("RAju", 30000);
         e1.setSalary(50000);
         e1.raisesalary(50);
-        System.out.println(e1.salary);
+        System.out.println(e1.getsalary());
         manager m1=new manager("vijay", 100000, 0.0);
+
 
 
     }
