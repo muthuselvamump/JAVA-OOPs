@@ -30,7 +30,7 @@ class manager extends Employee{ //derived class,sub class,child class
 
     }
     double getsalary(){
-        return super.get
+        return super.getsalary()+bonus;
     }
 }
 
@@ -40,7 +40,8 @@ public class inheritance {
         e1.setSalary(50000);
         e1.raisesalary(50);
         System.out.println(e1.getsalary());
-        manager m1=new manager("vijay", 100000, 0.0);
+        manager m1=new manager("vijay", 100000, 55.5);
+        System.out.println(m1.getsalary());
 
 
 
