@@ -42,6 +42,7 @@ public class inheritance {
         System.out.println(e1.getsalary());
         manager m1=new manager("vijay", 100000, 55.5);
         System.out.println(m1.getsalary());
+        m1.raisesalary(20);
 
 
 
