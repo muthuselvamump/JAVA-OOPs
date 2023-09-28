@@ -6,6 +6,13 @@ class Employee{//base class,super class,parent class
         name=n;
         salary=s;
     }
+    /*Employee(){
+        // we didnt call a constructor super its try to call without parameter so we should create a emptu constructor in base class
+    }*/
+    void Display(){
+        System.out.println("Emloyer Name: " + name);
+        System.out.println("Employer salory: " + salary);
+    }
     
     void setName(String name) {
         this.name= name;
@@ -31,6 +38,9 @@ class manager extends Employee{ //derived class,sub class,child class
     }
     double getsalary(){
         return super.getsalary()+bonus;
+    }
+    void Display(){
+        System.out.println()
     }
 }
 
