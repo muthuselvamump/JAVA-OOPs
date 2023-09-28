@@ -13,6 +13,10 @@ class Employee{//base class,super class,parent class
         System.out.println("Emloyer Name: " + name);
         System.out.println("Employer salory: " + salary);
     }
+    void name(){
+        System.out.println("Manager Name: " + name);
+        System.out.println("Manager salory: " + salary);
+    }
     
     void setName(String name) {
         this.name= name;
@@ -40,7 +44,9 @@ class manager extends Employee{ //derived class,sub class,child class
         return super.getsalary()+bonus;
     }
     void Display(){
-        System.out.println()
+        name();
+        System.out.println("Bonus is: " + bonus);
+
     }
 }
 
@@ -54,6 +60,8 @@ public class inheritance {
         System.out.println(m1.getsalary());
         m1.raisesalary(20);
         m1.setSalary(200000);
+        e1.Display();
+        m1.Display();
 
 
 
