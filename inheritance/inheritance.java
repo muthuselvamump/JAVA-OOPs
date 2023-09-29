@@ -65,6 +65,13 @@ public class inheritance {
         m1.Display();
         Employee e5=new manager("msd",521045 , 500);
         e5.Display();
+        Employee [] employees=new Employee[3];
+        employees[0]=new Employee("swetha", 25000);
+        employees[1]=new Employee("kavy", 50000);
+        employees[2]=m1;
+        for(Employee e6:employees){
+            e6.Display();
+        }
 
 
 
