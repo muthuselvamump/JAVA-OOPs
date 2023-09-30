@@ -15,6 +15,8 @@ public class hierarchical_inherit extends A {
     public static void main(String []args){
         A new1=new A();
         B new2=new B();
+        new1.printstat();
+        new2.printstat();
 
 }
     
