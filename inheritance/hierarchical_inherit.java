@@ -16,11 +16,11 @@ public class hierarchical_inherit extends A {
         A new1=new A();
         B new2=new B();
         A n1=new B();
-       
+       A n3=new hierarchical_inherit();
         new1.printstat();
         new2.printstat();
         n1.printstat();
-       
+        n3.printstat();
 
     }
 }
