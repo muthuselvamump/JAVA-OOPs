@@ -1,5 +1,7 @@
 public class remove_vowels_in_String_array {
     public static void main(String []args){
+        System.out.println("Enter String");
+        Scanner
         String []str={"welcome","helloworld","javadeveloper"};
         String []str1={"","",""};
         for(int i=0;i<str.length;i++){
@@ -12,7 +14,7 @@ public class remove_vowels_in_String_array {
             }
         }
         for(String k:str1){
-            System.out.print(k);
+            System.out.println(k);
         }
     }
     
