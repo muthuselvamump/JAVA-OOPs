@@ -22,7 +22,14 @@ public class Abstract_class_method {
         String s1="hello"+6+6+6;
         System.out.println(s1);
         member [] m=new member[3];
-        
+        m[0]=new student1();
+        m[1]=new teacher();
+        m[2]=new student1();
+        member m1=new student1();
+        member m3=new teacher();
+        for(member m2: m){
+            m2.printstatement();
+        } 
     }
     
 }
