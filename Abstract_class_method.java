@@ -1,5 +1,8 @@
  abstract class member{
         abstract void printstatement();
+        void test(){        //not only abstract method we can create a definition method into abstract class also possible
+            System.out.println("test");
+        }
 
     }
     class student1 extends member{
@@ -30,6 +33,7 @@ public class Abstract_class_method {
         for(member m2: m){
             m2.printstatement();
         } 
+        s.test();
     }
     
 }
