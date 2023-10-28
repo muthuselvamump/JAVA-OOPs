@@ -8,7 +8,17 @@ class bike extends vehicle{
         name=n;
         price=p;
     }
-
+    public boolean equals(Object obj){
+        if(this==obj)
+            return true;
+        if(obj==null)
+            return false;
+        if(this.getClass()!=obj.getClass())
+            return false;
+        bike b=(bike)obj;
+        return this.name.equals(b.name) && this.price==b.price;
+        
+    }
 }
 class car extends vehicle{
 
@@ -17,6 +27,7 @@ public class object_cosmic_super_class {
     public static void main(String []args){
         bike b=new bike("yamaha r15 ",180000);
         bike b1=new bike("yamaha r15 ",180000);
+        System.out.println(b.equals(b1));
         System.out.println(b.name.equals(b1.name));
 
         
