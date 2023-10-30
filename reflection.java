@@ -1,3 +1,4 @@
+import java.lang.reflect.*;
 class A2{
     public void method1(){
         System.out.println("method1");
@@ -11,6 +12,9 @@ class A2{
 }
 public class reflection {
     public static void main(String []args){
+        A2 new_A=new A2();
+        Class cl=new_A.getClass();
+        System.out.println(cl.getName());
 
     }
     
