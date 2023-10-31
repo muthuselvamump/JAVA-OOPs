@@ -14,6 +14,7 @@ public class reflection {
     public static void main(String []args){
         A2 new_A=new A2();
         Class cl=new_A.getClass();
+        Method []m=cl.getMethods();
         System.out.println(cl.getName());
 
     }
