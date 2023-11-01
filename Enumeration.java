@@ -1,5 +1,12 @@
 enum levels{
-    EASY,MEDIUM,HARD;
+    EASY("low level"),MEDIUM("intermediate level"),HARD("high level");
+    private String names;
+    levels(String s){
+        names=s;
+    }
+    public String names(){
+        return names;
+    }
 
 }
 public class Enumeration {
@@ -7,6 +14,7 @@ public class Enumeration {
         levels l=levels.EASY;
 
         System.out.println(l);
+        System.out.println(l.names());
     }
     
 }
