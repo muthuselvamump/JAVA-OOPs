@@ -15,9 +15,17 @@ public class Enumeration {
 
         System.out.println(l);
         System.out.println(l.names());
-        switch(l){
+        levels l1=levels.MEDIUM;
+        switch(l1){
             case EASY:
-                System.out.println("hello");
+                System.out.println("its easy level");
+                break;
+            case MEDIUM:
+                System.out.println("its medium level");
+                break;
+            case HARD:
+                System.out.println("its hard level");
+                break;
         }
     }
     
