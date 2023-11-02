@@ -15,6 +15,10 @@ public class Enumeration {
 
         System.out.println(l);
         System.out.println(l.names());
+        switch(l){
+            case EASY:
+                System.out.println("hello");
+        }
     }
     
 }
