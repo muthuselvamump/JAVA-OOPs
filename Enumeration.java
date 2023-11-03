@@ -16,6 +16,8 @@ public class Enumeration {
         System.out.println(l);
         System.out.println(l.names());
         levels l1=levels.MEDIUM;
+        levels l2=levels.MONDAY;
+        System.out.println(l2);
         switch(l1){
             case EASY:
                 System.out.println("its easy level");
@@ -27,6 +29,7 @@ public class Enumeration {
                 System.out.println("its hard level");
                 break;
         }
+        
     }
     
 }
