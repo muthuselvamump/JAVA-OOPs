@@ -29,6 +29,8 @@ public class Enumeration {
                 System.out.println("its hard level");
                 break;
         }
+        String s1=l2.toString();
+        System.out.println(s1);
         
     }
     
