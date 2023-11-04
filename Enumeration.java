@@ -31,7 +31,7 @@ public class Enumeration {
         }
         String s1=l2.toString();
         System.out.println(s1);
-        
+        System.out.println(l1.ordinal());
     }
     
 }
