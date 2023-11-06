@@ -8,7 +8,9 @@ public class wrapper_class_demo{
         int i4=i3.intValue();//unboxing
         int i5=i2;//autounboxing
         Short s1=5;
-        Byte b1=2;
+        byte c=5;
+        Byte b=4;
+        Byte b1=Byte.valueOf(c);
         System.out.println(i4);
         String num="12345";
         int i6=Integer.parseInt(num);
