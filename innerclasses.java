@@ -21,6 +21,9 @@ public class innerclasses {
         outer o=new outer();
         outer.inner i=o.new inner();
         outer.Static s=new outer.Static();
+        o.display();
+        i.display();
+        s.display();
 
     }
     
