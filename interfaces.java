@@ -1,9 +1,16 @@
 interface rideable{
     void ride();
 }
-class car implements rideable{
+class test{
+    void tests(){
+        System.out.println("testing");
+    }
+
+}
+class car extends test implements rideable{
     public void ride(){
         System.out.println("riding a car");
+
     }
 }
 class bike implements rideable{
@@ -24,6 +31,6 @@ public class interfaces {
         car c=new car();
         m.check(b);
         m.check(c);
-        
+        c.tests();
     }
 }
