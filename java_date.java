@@ -9,8 +9,11 @@ public class java_date {
         LocalDateTime dt=LocalDateTime.now();
         System.out.println("Current Date and Time: " + dt);
         DateTimeFormatter date=DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        DateTimeFormatter date1=DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         String formatdate=dt.format(date);
+        String formatdate1=dt.format(date1);
         System.out.println("formated date and time: "+formatdate);
+        System.out.println("format 2 :"+formatdate1);
     }
     
 }
