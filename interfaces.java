@@ -1,4 +1,4 @@
-interface rideable{
+interface rideable{//into the interface all method is public abstract method
     void ride();
 }
 class test{
@@ -32,5 +32,7 @@ public class interfaces {
         m.check(b);
         m.check(c);
         c.tests();
+        //rideable r1=new rideable();   we cant creat object for interface
+        rideable r1=new car();//but wee assign implemnets class object
     }
 }
