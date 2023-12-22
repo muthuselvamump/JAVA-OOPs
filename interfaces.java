@@ -1,5 +1,8 @@
-interface rideable{//into the interface all method is public abstract method
+interface rideable{//into the interface all method is public abstract method so all implements class must have all method into th interface
     void ride();
+}
+abstract class avoid implements rideable{ // if you want to avoid for create method you can create abstract class
+
 }
 class test{
     void tests(){
