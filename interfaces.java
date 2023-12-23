@@ -1,5 +1,6 @@
 interface rideable{//into the interface all method is public abstract method so all implements class must have all method into th interface
     void ride();    //we can create define method after java1.8 its called default method must use default keyword
+   int num=50;//we can assign variable also allow in interface but its not a instance variable by default its final and static
     default void display(){
         System.out.println("default method into interface");
     }
