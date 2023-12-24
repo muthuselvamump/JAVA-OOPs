@@ -17,6 +17,18 @@ class employee implements Comparable <employee>{
         return 1;
     }
 }
+class student implements Comparable <student>{
+    String name;
+    int rollno;
+    student(String n,int r){
+        rollno=r;
+        name=n;
+    }
+    public int compareTo(student s){
+        return name.compareTo(s.name);
+    }
+    
+}
 public class interface_demo2{
     public static void main(String []args){
         employee []err=new employee[5];
@@ -33,5 +45,22 @@ public class interface_demo2{
         for(employee e:err){
             System.out.println(e.name + " " + e.salary);
         }
+        System.out.println("\n" + "student data"+"\n");
+        student []srr=new student[5];
+        srr[0]=new student("vel", 100000);
+        srr[1]=new student("raj", 300000);
+        srr[2]=new student("anu", 50000);
+        srr[3]=new student("ganesh",800000);
+        srr[4]=new student("tanu", 100000);
+        for(student s:srr){
+            System.out.println(s.name + " " + s.rollno);
+        }
+        Arrays.sort(srr);
+
+        System.out.println("----------");
+        for(student s:srr){
+            System.out.println(s.name + " " + s.rollno);
+        }
+
     }
 }
