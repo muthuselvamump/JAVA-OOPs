@@ -11,6 +11,8 @@ public class interface_demo3 {
             }
         };
         d.display();
+        demo3 d1=()->System.out.println("lambda expression");
+        d1.display();
 
     }
     
