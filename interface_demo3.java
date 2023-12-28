@@ -1,5 +1,5 @@
-interface demo3{
-    void display();
+interface demo3{  //does interface have sing abstract method its called single abstract interface method or sam interface or functional interface
+    void display();//if have functional interface we can use lambda expression in java 8
 
 }
 public class interface_demo3 {
