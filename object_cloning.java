@@ -12,14 +12,15 @@ students(String n,int rn,int di,String dn){
         dept.id=di;
         dept.name=dn;
     }
-    protected Object clonObject(){
+    protected Object clonObject() throws CloneNotSupportedException{
         return super.clone();
 
     }
 }
 public class object_cloning {
-    public static void main(String []args){
+    public static void main(String []args) throws CloneNotSupportedException{
         students s1= new students("vijay",1520,2,"physics");
+        students s2=(students)s1.clonObject();
 
 
     }
