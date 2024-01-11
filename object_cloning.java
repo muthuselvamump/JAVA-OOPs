@@ -2,25 +2,22 @@ class departments{
     int id;
     String name;
 }
-class students implements Cloneable{
+class students {
     String name;
     int rollno;
     departments dept;
 students(String n,int rn,int di,String dn){
         name=n;
         rollno=rn;
-        dept.id=di;
-        dept.name=dn;
+       // dept.id=di;
+       // dept.name=dn;
     }
-    protected Object clonObject() throws CloneNotSupportedException{
-        return super.clone();
-
-    }
+   
 }
 public class object_cloning {
-    public static void main(String []args) throws CloneNotSupportedException{
+    public static void main(String []args) {
         students s1= new students("vijay",1520,2,"physics");
-        students s2=(students)s1.clonObject();
+        //students s2=(students)s1.clonObject();
 
 
     }
