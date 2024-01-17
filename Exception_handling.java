@@ -9,19 +9,19 @@ public class Exception_handling {
             System.out.println(arr[0]);
         }
         catch(Exception d){
-            System.out.println("Error");
+            System.err.println("Error"); // spl error print statement
 
         }
         try{
-            System.out.println(arr[1]);
+            System.out.println(arr[1]);//afdter getting error its got to corresponding catch statement its did not excute next line in try block
             c=a/b;
             
             
         }
-       /*  catch(ArithmeticException d){
+        catch(ArithmeticException d){
             System.out.println("Error try 2");
 
-        }*/
+        }
         catch(NullPointerException n){
             System.out.println("Error null point");
         }
