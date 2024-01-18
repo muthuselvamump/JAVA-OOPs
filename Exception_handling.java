@@ -1,3 +1,4 @@
+import java.io.*;
 public class Exception_handling {
     public static void main(String []args){
         int a=10;
@@ -31,7 +32,16 @@ public class Exception_handling {
         finally{
             System.out.println("its wheather error came or not what inside finally its getting executed");
         }
+
+            File f=new File("test.txt");
+        try{
         
+        FileInputStream fs=new FileInputStream(f);
+        }
+     //   catch(FileNotFoundException f){
+     //       f.
+
+       // }
         System.out.println(c);
         System.out.println("Program End");
     }
