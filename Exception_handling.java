@@ -28,6 +28,9 @@ public class Exception_handling {
         catch(Exception e){// you must give specifig exception first after that yo give exception
             System.out.println("Error occured");
         }
+        finally{
+            System.out.println("its wheather error came or not what inside finally its getting executed");
+        }
         
         System.out.println(c);
         System.out.println("Program End");
