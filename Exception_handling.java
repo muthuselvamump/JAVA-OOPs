@@ -44,6 +44,17 @@ public class Exception_handling {
         }
         System.out.println(c);
         System.out.println("Program End");
+        try{
+            System.out.println(arr[1]);//using or operator can we make single catch block
+            c=a/b;
+            FileInputStream  fr=new FileInputStream(f);
+            
+        }
+        catch(ArithmeticException | NullPointerException | FileNotFoundException l){
+            System.out.println("Error try 2");
+
+        }
+        System.out.println("end end end");
     }
     
 }
