@@ -38,10 +38,10 @@ public class Exception_handling {
         
         FileInputStream fs=new FileInputStream(f);
         }
-     //   catch(FileNotFoundException f){
-     //       f.
+        catch(FileNotFoundException i){
+            i.printStackTrace();
 
-       // }
+        }
         System.out.println(c);
         System.out.println("Program End");
     }
