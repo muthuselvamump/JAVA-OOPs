@@ -15,6 +15,12 @@ public class Exception_handling2{
          k=scanner.nextInt();  
         }
         System.out.println("its k"+ k );//if we create varaible into try we can use into try only
+     try{
+        throw new ArithmeticException("demo");//we can throw exception also possible
+    }
+        catch(ArithmeticException a){
+            System.err.println("error throwing");
+        }
     }
     
 }
