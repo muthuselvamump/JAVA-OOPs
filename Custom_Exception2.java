@@ -4,7 +4,9 @@ public class Custom_Exception2 extends Exception{
         balance=a;
     }
     public int withdraw(int a){
-        if
+        if(a>balance){
+            return a-balance;
+        }
     }
     public static void main(String []args){
         Custom_Exception2 c1=new Custom_Exception2(300);
