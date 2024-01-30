@@ -7,7 +7,7 @@ public class Custom_Exception2 extends Exception{
 
     }
     public int withdraw(int a){
-        if(a>balance){
+        if(a<balance){
             return a-balance;
         }
         else{
@@ -16,10 +16,16 @@ public class Custom_Exception2 extends Exception{
         }
     }
     public static void withdraw1(){
+        try{
+        throw new Custom_Exception2();
+        }
+        catch(Custom_Exception2 c){
+            System.out.println("balance is not sufficent");
+        }
 
     }
     public static void main(String []args){
         Custom_Exception2 c1=new Custom_Exception2(300);
-        c1.withdraw(700);
+        System.out.println(c1.withdraw(700));
     }
 }
