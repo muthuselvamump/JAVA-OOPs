@@ -39,7 +39,15 @@ public class multi_threading_using_interface {
                 System.out.println("alive");
             }
             System.out.println("End of program");
-
+            Thread n=new Thread(){
+                public void run(){
+                    for(int i=0;i<6;i++){
+                        System.out.println("Anonymous clss");
+                    }
+                }
+            
+            };
+            n.start();
             
     //    t1.run();
     
