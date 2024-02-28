@@ -27,6 +27,8 @@ public class multi_threading_using_interface {
         Thread t3=new Thread(r1);
             t3.start();
             t2.start();
+            t3.setName("interface thred");///we can set name on thread also possible
+            System.out.println(t3.getName());
             if(t3.isAlive()){
                 System.out.println("t3 is alive");
             }
@@ -37,6 +39,7 @@ public class multi_threading_using_interface {
                 System.out.println("alive");
             }
             System.out.println("End of program");
+
             
     //    t1.run();
     
