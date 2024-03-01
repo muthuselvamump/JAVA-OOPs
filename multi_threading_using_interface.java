@@ -55,7 +55,7 @@ public class multi_threading_using_interface {
             };
             Thread tl1=new Thread(rl1);
 
-            
+            tl1.start();
     //    t1.run();
     
     }
