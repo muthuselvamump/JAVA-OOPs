@@ -48,6 +48,13 @@ public class multi_threading_using_interface {
             
             };
             n.start();
+            Runnable rl1= ()-> {
+                for(int i=0;i<6;i++){
+                    System.out.println("lambda expression");
+                }
+            };
+            Thread tl1=new Thread(rl1);
+
             
     //    t1.run();
     
@@ -55,3 +62,4 @@ public class multi_threading_using_interface {
     
     
 }
+    
