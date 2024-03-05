@@ -5,7 +5,6 @@ class threading1 implements Runnable{
            try{ Thread.sleep(4000);}catch(Exception E){}
         }
     }
-
 }
 class threading2 extends Thread{
     public void run(){
@@ -56,10 +55,9 @@ public class multi_threading_using_interface {
             Thread tl1=new Thread(rl1);
 
             tl1.start();
+            tl1.setPriority(5);
+            tl1.setPriority(Thread.MAX_PRIORITY);
     //    t1.run();
-    
-    }
-    
-    
+    }   
 }
     
