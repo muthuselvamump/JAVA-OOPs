@@ -57,6 +57,7 @@ public class multi_threading_using_interface {
             tl1.start();
             tl1.setPriority(5);
             tl1.setPriority(Thread.MAX_PRIORITY);
+            System.out.println("tl1 priority "+tl1.getPriority());
     //    t1.run();
     }   
 }
