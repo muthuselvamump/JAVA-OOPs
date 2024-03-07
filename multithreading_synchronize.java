@@ -8,7 +8,21 @@ class synchro{
 }
 public class multithreading_synchronize {
     public static void main(String []args){
-        T   H
+        synchro s1=new synchro();
+        synchro s2=new synchro();
+        Thread t1=new Thread(){
+            public void run(){
+                s1.table(5);
+            }
+        };
+        Thread t2=new Thread(){
+            public void run(){
+                s2.table(6);
+            }
+        };
+        t1.start();
+        t2.start();
+
     }
     
 }
