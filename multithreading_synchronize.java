@@ -14,7 +14,18 @@ public class multithreading_synchronize {
         synchro s1=new synchro();//if two thread access method with same object 
         synchro s2=new synchro();//if we want at a time one thread can be access method we can use synchronized method
         Thread t1=new Thread(){
-     
+            public void run(){
+                s1.table(5);
+            }
+        };
+        Thread t2=new Thread(){
+            public void run(){
+                s1.table(6);
+            }
+        };
+        t1.start();
+        t2.start();
+
     }
     
 }
