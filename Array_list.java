@@ -13,7 +13,15 @@ public class Array_list {
         str.add("Linux");
         str.add("bash");
         System.out.println(str);
-
+        ArrayList all1=new ArrayList();
+        all1.add(4.5555);
+        all1.add('c');
+        all1.add(10);
+        all1.add("bash");
+        System.out.println("hello");
+        for(Object obj:all1){
+            System.out.println(obj);
+        }
 
     }    
 }
