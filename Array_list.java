@@ -7,6 +7,12 @@ public class Array_list {
         all.add(59);
         System.out.println(all.indexOf(59));
         System.out.println(all.get(0));
+        ArrayList<String> str=new ArrayList<String>();
+        str.add("java");
+        str.add("pyhthon");
+        str.add("Linux");
+        str.add("bash");
+        System.out.println(str);
 
 
     }    
