@@ -35,6 +35,9 @@ public class Array_list {
         System.out.println(num1);
         Collections.sort(num1);
         System.out.println(num1);
+        for(int i=0;i<num1.size();i++){
+            System.out.println(num1.get(i));
+        }
 
     }    
 }
