@@ -25,7 +25,16 @@ public class Array_list {
         }
         System.out.println(str);
         Collections.sort(str);
-        System.out.println(str);
+        System.out.println(str);//Linux,bash,java.python sort listed because LINUX starting letter is caps so its sort as first
+        ArrayList<Integer> num1=new ArrayList<Integer>();
+        num1.add(8);
+        num1.add(9);
+        num1.add(1);
+        num1.add(3);
+        num1.add(7);
+        System.out.println(num1);
+        Collections.sort(num1);
+        System.out.println(num1);
 
     }    
 }
