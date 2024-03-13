@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.ArrayList;
+import java.util.Collection;
 public class Array_list {
     public static void main(String args[]){
         int arr[]=new int[5];//array is fixed size
@@ -18,10 +19,13 @@ public class Array_list {
         all1.add('c');
         all1.add(10);
         all1.add("bash");
-        System.out.println("hello");
+        //System.out.println(all1);
         for(Object obj:all1){
             System.out.println(obj);
         }
+        System.out.println(str);
+        Collections.sort(str);
+        System.out.println(str);
 
     }    
 }
