@@ -20,7 +20,20 @@ public static void main(String[] args) {
     }
     l1.sort(Comparator.reverseOrder());
     
-    System.out.println("after sort "+l1);
+    System.out.println("after sorted reverse order "+l1);
+
+    LinkedList l2=new LinkedList<>();
+    l2.add(5);
+    l2.add("hello");
+    l2.add(5.6);
+    System.out.println(l2);
+
+    LinkedList<String> l3=new LinkedList<String>();
+    l3.add("java");
+    l3.add("testing");
+    l3.add("Selenium");
+    l3.add("developer");
+    System.out.println(l3);
 
 }
 }
