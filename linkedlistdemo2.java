@@ -20,6 +20,11 @@ public class linkedlistdemo2 {
         System.out.println(l1);
         l1.removeLast();
         System.out.println(l1);
+        List n=new ArrayList<Integer>();
+        n.add(7);
+        n.add(9);
+        n.add(27);
+        System.out.println(n);
     }
     
 }
