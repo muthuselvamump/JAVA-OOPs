@@ -22,10 +22,12 @@ public class Vector_demo {
         v2.add(55);
         v2.add(7);
         v2.add(55);
-        v2.add(7);
-        v2.add(55);
         System.out.println(v2);
-        System.out.println(v2.size());
+        System.out.println("v2 size "+v2.size());
+        System.out.println(" v2 capacity "+v2.capacity());
+        v2.add(44);
+        v2.add(33);
+        System.out.println("v2 capacity after "+v2.capacity());
     }
     
 }
