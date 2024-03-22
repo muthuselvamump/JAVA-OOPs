@@ -27,7 +27,10 @@ public class Vector_demo {
         System.out.println(" v2 capacity "+v2.capacity());
         v2.add(44);
         v2.add(33);
-        System.out.println("v2 capacity after "+v2.capacity());
+        System.out.println("v2 capacity after "+v2.capacity());//its incresing double size
+        System.out.println(v2.firstElement());
+        System.out.println(v2.lastElement());
+
     }
     
 }
