@@ -30,6 +30,8 @@ public class Vector_demo {
         System.out.println("v2 capacity after "+v2.capacity());//its incresing double size
         System.out.println(v2.firstElement());
         System.out.println(v2.lastElement());
+        v2.clear();//its clear all element
+        System.out.println(v2);
 
     }
     
