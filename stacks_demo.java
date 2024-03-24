@@ -17,6 +17,7 @@ public class stacks_demo {
         s1.push("rest api");
         System.out.println(s1);
         System.out.println(s1.peek());
+        System.out.println(s1.search("java"));
     }
     
 }
