@@ -10,6 +10,13 @@ public class stacks_demo {
         System.out.println(s);
         System.out.println(s.pop());
         System.out.println(s.empty());
+        Stack<String> s1=new Stack<String>();
+        s1.push("java");
+        s1.push("devloper");
+        s1.push("spring boot");
+        s1.push("rest api");
+        System.out.println(s1);
+        System.out.println(s1.peek());
     }
     
 }
