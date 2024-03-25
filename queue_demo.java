@@ -8,5 +8,6 @@ public class queue_demo{
     q.add(4);
     q.add(7);
     System.out.println(q);
+    System.out.println(q.peek());
     }
 }
