@@ -11,7 +11,7 @@ public class queue_demo{
     System.out.println(q.peek());
     Iterator i1=q.iterator();
     while(i1.hasNext()){
-        System.out.println(i1);
+        System.out.println(i1.next());
     }
     
     }
