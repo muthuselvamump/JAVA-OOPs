@@ -1,4 +1,4 @@
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class queue_demo{
     public static void main(String []args){
@@ -9,5 +9,10 @@ public class queue_demo{
     q.add(7);
     System.out.println(q);
     System.out.println(q.peek());
+    Iterator i1=q.iterator();
+    while(i1.hasNext()){
+        System.out.println(i1);
+    }
+    
     }
 }
