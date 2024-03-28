@@ -13,6 +13,6 @@ public class queue_demo{
     while(i1.hasNext()){
         System.out.println(i1.next());
     }
-    
+    System.out.println("Size of the queue " +q.size());
     }
 }
