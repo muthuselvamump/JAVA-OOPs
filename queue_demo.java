@@ -17,13 +17,15 @@ public class queue_demo{
     Queue<String> q1=new PriorityQueue<String>();
     q1.add("java");
     q1.add("developer");
+    q1.add("apple");
     q1.add("python");
     q1.add("linux");
+    System.out.println(q1.peek());
+    //q1.remove("python");
     System.out.println(q1);
-    q1.remove("python");
-    System.out.println(q1);
-    q1.remove();
-    System.out.println(q1);
+   // System.out.println("poll " +q1.poll());
+    //q1.remove();
+    System.out.println(q1);//remove first element
 
 }
 }
