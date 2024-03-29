@@ -22,6 +22,8 @@ public class queue_demo{
     System.out.println(q1);
     q1.remove("python");
     System.out.println(q1);
+    q1.remove();
+    System.out.println(q1);
 
 }
 }
